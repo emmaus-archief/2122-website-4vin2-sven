@@ -1,0 +1,114 @@
+
+/* 
+ * Instellingen om fouten te helpen vinden
+ */
+
+* {
+    /* border: 1px dotted black; */          /* zorg dat elke box een gestippelde rand krijgt, zodat je de afmeting goed kunt zien */
+    /* background-color: rgba(0,0,0,5%); */  /* zorg dat elke box een doorzichtige donkere achtergrond krijgt, hoe meer boxen in elkaar hoe donkerder de achtergrondkleur */
+}
+
+/* 
+ * Basis instellingen
+ */
+
+* {  
+  overflow: hidden;        /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  box-sizing: border-box;  /* zorg dat border meetelt bij de width en height van boxen */
+  margin: 0px;             /* standaard marge 0 */
+}
+
+/* Basislayout voor alle pagina's */
+
+html, body {
+    overflow: visible;    /* zorgt dat pagina scrollt als hij groter is dan het window */
+    background-color: #EEEEEE;  
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+}
+
+
+main {
+    margin: 0 auto; /* boven en onder geen marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+    width: 700px;
+}
+
+
+article {
+    text-align: justify;
+}
+
+
+header {
+    color: skyblue;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h1 {
+  margin: 10px 0px;
+}
+
+p {
+  margin: 10px 0px;
+}
+/* Layout voor specifieke pagina's */
+
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+}
+
+/* Opmaak */
+
+.smalltext {
+    font-size: 0.7em;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* navigatiebalk */
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #dddddd;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #aaaaaa;
+}
+
+nav li a.active {
+    background-color: skyblue;
+}
+
+
+
+
