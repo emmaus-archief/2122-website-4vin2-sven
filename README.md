@@ -13,9 +13,9 @@ Geef aan met [x] welke onderdelen af zijn
 ### Basisstappen
 
 Stap 1: Start 
-- [ ] Je hebt het onderwerp van je website gekozen en door je docent laten goedkeuren. 
-- [ ] Je hebt een account aangemaakt op www.github.com
-- [ ] Je hebt de voorbeeld website van de docent gekopieerd naar je eigen github account en het werkt. 
+- [x] Je hebt het onderwerp van je website gekozen en door je docent laten goedkeuren. 
+- [x] Je hebt een account aangemaakt op www.github.com
+- [x] Je hebt de voorbeeld website van de docent gekopieerd naar je eigen github account en het werkt. 
 
 Stap 2: Bestandsstructuur opzetten 
 - [ ] Je hebt bepaald wat je op de hoofdpagina en de subpagina’s (minimaal 4) wilt laten zien.
@@ -61,6 +61,9 @@ https://www.w3schools.com/cssref/default.asp
 https://www.w3schools.com/howto/default.asp
 - informatie van Emmauscollege over website opdracht
 https://emmauscollege.github.io/informatica/website/
+- voorbeelden van andere leerlingen
+https://emmauscollege.github.io/showcases/
+
 
 ## Credits
 - Website template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-website-template
