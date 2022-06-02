@@ -62,11 +62,15 @@ p {
 img.zweefLinks {
     float: left;
     margin-right: 15px;
+    width: 110%;
 }
 /* opmaak intro*/
 .container {
-    height:100%;
-    widht:50%;
+    height: fit-content;
+    width: fit-content;
+    float: left;
+    fill:black;
+    border: 2px;
 }
 /* Opmaak */
 
