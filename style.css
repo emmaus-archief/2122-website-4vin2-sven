@@ -63,7 +63,11 @@ img.zweefLinks {
     float: left;
     margin-right: 15px;
 }
-
+/* opmaak intro*/
+.container {
+    height:100%;
+    widht:50%;
+}
 /* Opmaak */
 
 .smalltext {
