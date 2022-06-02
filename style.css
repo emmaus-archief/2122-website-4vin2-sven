@@ -22,7 +22,7 @@
 
 html, body {
     overflow: visible;    /* zorgt dat pagina scrollt als hij groter is dan het window */
-    background-color: #EEEEEE;  
+    background-color: #e3e1db;  
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
 }
@@ -93,7 +93,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #b0adad;
     overflow: hidden;
 }
 
