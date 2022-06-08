@@ -60,10 +60,26 @@ p {
 /* Layout voor specifieke pagina's */
 
 img.zweefLinks {
-    float: right;
+    float: left;
     margin-right: 15px;
     width: 110%;
 }
+.zweef-right{
+    float: right;
+    margin-left: 15px ;
+    width: 50%;
+    height: fit-content ;
+    fill:orange;
+    border:4px;
+}
+.zweef-beneden{
+    float: left;
+    margin-left: 15px ;
+    width: 50%;
+    height: fit-content ;  
+    fill:black;
+    border:4px;
+}    
 /* opmaak intro*/
 .container {
     height: fit-content;
