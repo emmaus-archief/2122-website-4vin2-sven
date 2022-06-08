@@ -60,7 +60,7 @@ p {
 /* Layout voor specifieke pagina's */
 
 img.zweefLinks {
-    float: left;
+    float: right;
     margin-right: 15px;
     width: 110%;
 }
