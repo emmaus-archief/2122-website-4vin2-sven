@@ -57,37 +57,29 @@ h1 {
 p {
   margin: 10px 0px;
 }
-/* Layout voor specifieke pagina's */
+/* Layout voor index. html */
 
-img.zweefLinks {
-    float: left;
-    margin-right: 15px;
-    width: 110%;
+.container-rij {
+    height: fit-content ; 
 }
-.zweef-right{
-    float: right;
-    margin-left: 15px ;
+.plaatje {
     width: 50%;
     height: fit-content ;
     fill:orange;
     border: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-.zweef-beneden{
+
+.links {
     float: left;
-    margin-left: 15px ;
-    width: 50%;
-    height: fit-content ;  
-    fill:black;
-    border: 4px;
-}    
-/* opmaak intro*/
-.container {
-    height: fit-content;
-    width: fit-content;
-    float: left;
-    fill:black;
-    border: 2px;
+    margin-right: 15px;
 }
+.rechts {
+    float: right;
+    margin-left: 15px ;   
+}
+
 /* Opmaak */
 
 .smalltext {
