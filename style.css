@@ -61,6 +61,7 @@ p {
 
 .container-rij {
     height: fit-content ; 
+    width: fit-content;
 }
 .plaatje {
     width: 50%;
@@ -80,6 +81,7 @@ p {
     margin-left: 15px ;   
 }
 
+h2{text-align: center;}
 /* Opmaak */
 
 .smalltext {
